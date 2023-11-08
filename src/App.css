@@ -1,0 +1,49 @@
+.item-cointainer > img{
+  width:8rem;
+  width: 50%;
+  
+}
+
+body{
+  background-color: rgb(255, 254, 252);
+  color:white;
+}
+.grid{padding:  5px;
+  display: grid;
+  grid-template-columns:repeat(4,325px);
+  grid-auto-rows: 270px;
+  margin: 5px;
+  border:white;
+
+
+
+}
+.grid >div{
+margin: 10px;
+
+background-color: black;
+  text-align: center;
+}
+.item-cointainer{
+  background-color: black;
+  text-align: center;
+  padding:20px;
+}
+input{
+
+
+  border-radius: 5px;
+  width:350px;
+  outline:none;
+  border:white;
+  height: 2.5rem;
+  font-size: medium;
+  margin-top: 50px;
+
+}
+.header{
+  height:150px;
+  width:100%;
+  background-color: rgb(211, 202, 202) ;
+  text-align: center;
+}
